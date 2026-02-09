@@ -1,6 +1,6 @@
 cask "kuku" do
-  version "0.2.6"
-  sha256 "41bec8a914aec5f954932715a3e9ef96652228708225a4748e507879f243d7b8"
+  version "0.2.7"
+  sha256 "a2f0197b51f8f3e35b1f2df6d76e9e0643ad33ba9701cac97f6b5cc9d07d10a8"
 
   url "https://github.com/kuku-mom/kuku/releases/download/#{version}/Kuku.app.tar.gz"
   name "Kuku"
