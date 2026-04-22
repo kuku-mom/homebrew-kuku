@@ -1,8 +1,8 @@
 cask "kuku" do
-  version "0.2.7"
-  sha256 "a2f0197b51f8f3e35b1f2df6d76e9e0643ad33ba9701cac97f6b5cc9d07d10a8"
+  version "0.3.0"
+  sha256 "ba29e6a25f3b8de9cdfde0c80f2a158052dad8892424aae1cc6c2bb85ecb399f"
 
-  url "https://github.com/kuku-mom/kuku/releases/download/#{version}/Kuku.app.tar.gz"
+  url "https://github.com/kuku-mom/kuku/releases/download/0.3.0/Kuku.app.tar.gz"
   name "Kuku"
   desc "Like Obsidian, but it learned some new tricks"
   homepage "https://www.kuku.mom"
