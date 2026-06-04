@@ -7,6 +7,15 @@ cask "kuku" do
   desc "Like Obsidian, but it learned some new tricks"
   homepage "https://www.kuku.mom"
 
+  deprecate! date: "2026-06-04", because: "is now distributed through the official website"
+
+  caveats <<~EOS
+    Kuku is no longer distributed through Homebrew.
+    Please download future versions from:
+
+      https://www.kuku.mom/
+  EOS
+
   livecheck do
     url "https://www.kuku.mom/release.json"
     strategy :json do |json|
